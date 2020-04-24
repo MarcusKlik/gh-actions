@@ -32,6 +32,7 @@ jobs:
       - uses: r-lib/actions/setup-r@master
         with:
           r-version: ${{ matrix.config.r }}
+          remove-openmp-macos: false
 
       - uses: r-lib/actions/setup-pandoc@master
 
