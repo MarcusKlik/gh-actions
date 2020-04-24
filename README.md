@@ -7,10 +7,7 @@ Status](https://travis-ci.org/fstpackage/fstcore.svg?branch=develop)](https://tr
 [![License: AGPL
 v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 [![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/fstcore)](https://cran.r-project.org/package=fstcore)
-[![codecov](https://codecov.io/gh/fstpackage/fstcore/branch/develop/graph/badge.svg)](https://codecov.io/gh/fstpackage/fstcore)
-[![downloads](http://cranlogs.r-pkg.org/badges/fstcore)](http://cran.rstudio.com/web/packages/fstcore/index.html)
-[![total\_downloads](https://cranlogs.r-pkg.org/badges/grand-total/fstcore)](http://cran.rstudio.com/web/packages/fstcore/index.html)
-
+![R-CMD-check](https://github.com/MarcusKlik/gh-actions/workflows/R-CMD-check/badge.svg)
 
 ## Overview
 
