@@ -1,13 +1,9 @@
 
 <img src="fstcore.png" align="right" height="196" width="196" />
 
-[![Linux/OSX Build
-Status](https://travis-ci.org/fstpackage/fstcore.svg?branch=develop)](https://travis-ci.org/fstpackage/fstcore)
-[![Windows Build](https://ci.appveyor.com/api/projects/status/alg12npmm08564v6?svg=true)](https://ci.appveyor.com/project/fstpackage/fstcore)
 [![License: AGPL
 v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
-[![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/fstcore)](https://cran.r-project.org/package=fstcore)
-![R-CMD-check](https://github.com/MarcusKlik/gh-actions/workflows/R-CMD-check/badge.svg)
+[![R-CMD-check](https://github.com/MarcusKlik/gh-actions/workflows/R-CMD-check/badge.svg)](https://github.com/MarcusKlik/gh-actions/actions)
 
 ## Overview
 
