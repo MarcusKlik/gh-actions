@@ -1,0 +1,42 @@
+Package: fstcore
+Type: Package
+Title: R Bindings to the 'Fstlib' Library
+Description: The 'fstlib' library provides multithreaded serialization of compressed data frames using the
+    'fst' format. The 'fst' format allows for random access of stored data and compression with the LZ4 and ZSTD
+    compressors.
+Version: 0.9.4
+Date: 2020-04-23
+Authors@R:
+    c(person(given = "Mark",
+             family = "Klik",
+             role = c("aut", "cre", "cph"),
+             email = "markklik@gmail.com"),
+      person(given = "Yuta",
+             family = "Mori",
+             role = c("ctb", "cph"),
+             comment = "Yuta Mori is author and copyright holder of the bundled libdivsufsort-lite code"),
+      person(given = "Yann",
+             family = "Collet",
+             role = c("ctb", "cph"),
+             comment = "Yann Collet is author of the bundled LZ4 and ZSTD code and copyright holder of LZ4"),
+      person(given = "Facebook, Inc.",
+            role = "cph",
+            comment = "Bundled ZSTD code"))
+LazyData: true
+Depends:
+    R (>= 3.0.0)
+Imports:
+    Rcpp
+LinkingTo: Rcpp
+SystemRequirements: little-endian platform
+RoxygenNote: 7.1.0
+Suggests:
+    testthat,
+    lintr
+License: AGPL-3 | file LICENSE
+Encoding: UTF-8
+Copyright: This package includes sources from the LZ4 library owned by Yann Collet, sources of the ZSTD
+    library owned by Facebook, Inc., sources of the libdivsufsort-lite library owned by Yuta Mori and
+    sources of the fstlib library owned by Mark Klik
+URL: https://fstpackage.github.io/fstcore
+BugReports: https://github.com/fstpackage/fst/issues
