@@ -5,6 +5,7 @@
 ^CONDUCT\.md$
 \.dll$
 ^docs$
+^\.github$
 \.a$
 \.Rmd$
 LZ4/LICENSE$
